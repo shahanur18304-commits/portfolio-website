@@ -1,0 +1,364 @@
+/* ================================
+   MOBILE RESPONSIVE
+   max-width: 480px
+================================ */
+
+@media (max-width: 415px) {
+
+    /* NAVBAR */
+
+    .navn {
+        flex-direction: column;
+  
+        margin: 0.4rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .nav {
+        gap: 0.7rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav a {
+        font-size: 0.9rem;
+    }
+
+    .mood {
+        font-size: 1rem;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        max-width: 92%;
+        min-height: auto;
+
+        padding: 4rem 0;
+
+        gap: 1.5rem;
+    }
+
+    .imgt {
+        width: 15rem;
+    }
+
+    .hr1 {
+        font-size: 1.2rem;
+    }
+
+    .user {
+        font-size: 2.5rem;
+    }
+
+    .details {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+
+    /* BUTTON */
+
+    .button1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .button {
+        font-size: 1rem;
+        padding: 0.6rem 1rem;
+        margin: 0.3rem;
+    }
+
+
+    /* SOCIAL */
+
+    .social {
+        font-size: 1.8rem;
+        gap: 1.2rem;
+        margin: 0;
+    }
+
+
+    /* ABOUT */
+
+    .about {
+        max-width: 92%;
+        padding: 3rem 0;
+    }
+
+
+    /* SKILLS */
+
+    .skills {
+        max-width: 92%;
+        padding: 3rem 0;
+    }
+
+    .flex-icons {
+        gap: 0.5rem;
+    }
+
+    .icons-skills {
+        flex: 0 0 calc(50% - 0.5rem);
+
+        padding: 1rem 0.5rem;
+        margin: 0;
+    }
+
+    .ico {
+        font-size: 2.2rem;
+    }
+
+    .dont {
+        font-size: 0.85rem;
+    }
+
+
+    /* PROJECTS */
+
+    .projects {
+        max-width: 92%;
+    }
+
+    .project-h1 {
+        font-size: 1.8rem;
+    }
+
+    .demo {
+        flex-direction: column;
+    }
+
+    .lop {
+        width: 100%;
+    }
+
+    .marc {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* CONTACT */
+
+    .contacts {
+        max-width: 92%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacs {
+        width: 100%;
+    }
+
+    .jt {
+        width: 100%;
+    }
+
+    .input-area {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .your,
+    .Email {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    #ted {
+        width: 100%;
+        height: 7rem;
+    }
+
+    .Cont {
+        font-size: 1.3rem;
+    }
+
+    .mas {
+        font-size: 1rem;
+    }
+
+}
+/* ================================
+   TABLET RESPONSIVE
+   max-width: 768px
+================================ */
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .navn {
+        margin: 0.8rem 1rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .nav {
+        gap: 0.8rem;
+    }
+
+    .nav a {
+        font-size: 1rem;
+    }
+
+    .mood {
+        font-size: 1.1rem;
+    }
+
+
+    /* HERO */
+    .hero {
+        max-width: 90%;
+        height: auto;
+        min-height: calc(100vh - 4rem);
+
+        display: flex;
+        flex-direction: column-reverse;
+
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .imgt {
+        width: 20rem;
+    }
+
+    .text {
+        width: 100%;
+        align-items: center;
+    }
+
+    .hr1 {
+        font-size: 1.5rem;
+    }
+
+    .user {
+        font-size: 3.5rem;
+    }
+
+    .details {
+        font-size: 1.2rem;
+    }
+
+    .social {
+        justify-content: center;
+    }
+
+
+    /* ABOUT */
+    .about {
+        max-width: 90%;
+        height: auto;
+
+        grid-template-columns: 1fr;
+
+        text-align: center;
+
+        row-gap: 2rem;
+
+        padding: 4rem 0;
+    }
+
+    .Contacts {
+        padding: 0;
+    }
+
+
+    /* SKILLS */
+    .skills {
+        height: auto;
+        max-width: 90%;
+        padding: 3rem 0;
+    }
+
+    .flex-icons {
+        height: auto;
+
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .icons-skills {
+        flex: 0 0 calc(33.33% - 1rem);
+
+        margin: 0.3rem;
+        padding: 1rem;
+    }
+
+    .ico {
+        font-size: 2.5rem;
+    }
+
+    .dont {
+        font-size: 1rem;
+    }
+
+
+    /* PROJECTS */
+    .projects {
+        height: auto;
+        max-width: 90%;
+
+        padding: 3rem 0;
+    }
+
+    .demo {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .lop {
+        width: 17rem;
+        margin: 0;
+    }
+
+
+    /* CONTACT */
+    .contacts {
+        height: auto;
+        max-width: 90%;
+
+        padding: 3rem 0;
+    }
+
+    .contacs {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .jt {
+        width: 100%;
+        height: auto;
+    }
+
+    .input-area {
+        flex-wrap: wrap;
+    }
+
+    .your,
+    .Email {
+        width: 100%;
+    }
+
+    #ted {
+        width: 100%;
+    }
+
+}
